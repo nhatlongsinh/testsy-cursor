@@ -9,10 +9,7 @@
   },
   "homepage": "https://testsy.dev/docs/mcp/",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nhatlongsinh/testsy-cursor"
-  },
+  "repository": "https://github.com/nhatlongsinh/testsy-cursor",
   "keywords": [
     "testing",
     "qa",
