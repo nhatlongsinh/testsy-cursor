@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "testsy": {
+      "url": "https://app.testsy.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${QA_AI_API_KEY}"
+      }
+    }
+  }
+}

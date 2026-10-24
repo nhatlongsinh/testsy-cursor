@@ -1,0 +1,37 @@
+{
+  "name": "testsy",
+  "version": "1.0.0",
+  "description": "Check releases, investigate failed runs and save regression tests with Testsy.",
+  "author": {
+    "name": "Testsy",
+    "email": "contact@testsy.dev",
+    "url": "https://testsy.dev"
+  },
+  "homepage": "https://testsy.dev/docs/mcp/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhatlongsinh/testsy-cursor"
+  },
+  "keywords": [
+    "testing",
+    "qa",
+    "regression",
+    "release",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "QA_AI_API_KEY": {
+        "type": "string",
+        "title": "Testsy API key",
+        "description": "A workspace key from Testsy Settings → API keys. Run/edit permissions are needed to create and execute tests."
+      }
+    },
+    "required": [
+      "QA_AI_API_KEY"
+    ]
+  }
+}
